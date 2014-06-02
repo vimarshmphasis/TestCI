@@ -1,1057 +1,0 @@
-TTestCI
-v6
-r1
-cCheck dependencies
-cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Release-iphoneos/TestCI.app/ResourceRules.plist
-cProcessPCH /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-fkdsgvwgkycntugptmhjxshamyjq/TestCI-Prefix.pch.pch TestCI/TestCI-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-damxxprekkvvqlatnhfpetcoourm/TestCI-Prefix.pch.pch TestCI/TestCI-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-bpbmgqgwiqnhldaovomyzerqrtey/TestCI-Prefix.pch.pch TestCI/TestCI-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIAppDelegate.o /Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIDetailViewController.o /Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIMasterViewController.o /Users/Shared/Jenkins/TestCI/TestCI/TestCIMasterViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/main.o /Users/Shared/Jenkins/TestCI/TestCI/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIAppDelegate.o /Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIDetailViewController.o /Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIMasterViewController.o /Users/Shared/Jenkins/TestCI/TestCI/TestCIMasterViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/main.o /Users/Shared/Jenkins/TestCI/TestCI/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIAppDelegate.o /Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIDetailViewController.o /Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIMasterViewController.o /Users/Shared/Jenkins/TestCI/TestCI/TestCIMasterViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/main.o /Users/Shared/Jenkins/TestCI/TestCI/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCI normal armv7
-cLd /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCI normal armv7s
-cLd /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCI normal arm64
-cCreateUniversalBinary /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/TestCI normal armv7\ armv7s\ arm64
-cCompileStoryboard /Users/Shared/Jenkins/TestCI/TestCI/Base.lproj/Main_iPad.storyboard
-cCompileStoryboard /Users/Shared/Jenkins/TestCI/TestCI/Base.lproj/Main_iPhone.storyboard
-cCopyStringsFile /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/en.lproj/InfoPlist.strings TestCI/en.lproj/InfoPlist.strings
-cCompileAssetCatalog /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app /Users/Shared/Jenkins/TestCI/TestCI/Images.xcassets
-cProcessInfoPlistFile /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/Info.plist /Users/Shared/Jenkins/TestCI/TestCI/TestCI-Info.plist
-cGenerateDSYMFile /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app.dSYM /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/TestCI
-cProcessProductPackaging /Users/Shared/Jenkins/Library/MobileDevice/Provisioning\ Profiles/B35E97B4-5174-4D95-868D-4156197D0C7D.mobileprovision /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/embedded.mobileprovision
-cTouch /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app
-cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI.xcent
-cCodeSign /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app
-cValidate /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
-c000000005347B6B60000000000000132
-t1397208758
-s306
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
-c00000000532C4BA00000000000000094
-t1395411872
-s148
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
-c00000000532C4BA00000000000000096
-t1395411872
-s150
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
-c00000000532C4BA0000000000000036B
-t1395411872
-s875
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000532C4BA1000000000000019E
-t1395411873
-s414
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-c00000000532C4BA4000000000063A500
-t1395411876
-s6530304
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-c00000000532C4BA5000000000079C660
-t1395411877
-s7980640
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000005347B64C00000000004D7BC0
-t1397208652
-s5077952
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
-c00000000532C4BA60000000000433410
-t1395411878
-s4404240
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-c00000000532C4BA60000000000306EF0
-t1395411878
-s3174128
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-c00000000532C4BA6000000000006DCD0
-t1395411878
-s449744
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000532C4BA80000000000A90C10
-t1395411880
-s11078672
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-c00000000532C4BAA00000000000417E0
-t1395411882
-s268256
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c00000000532C4BAB0000000000649DB0
-t1395411883
-s6593968
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
-c00000000532C4BAB0000000000186D60
-t1395411883
-s1600864
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c00000000532C4BB20000000002759920
-t1395411890
-s41261344
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-c00000000532C4BC30000000000385D50
-t1395411907
-s3693904
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
-c00000000532C4BCB000000000001E300
-t1395411915
-s123648
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
-c00000000532C4BCB000000000055EFE0
-t1395411915
-s5631968
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
-c00000000532C4BCB000000000002A880
-t1395411915
-s174208
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
-c00000000532C4BCB00000000000458C0
-t1395411915
-s284864
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
-c00000000532C4BCB000000000003E3E0
-t1395411915
-s254944
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
-c00000000532C4BCB000000000002B130
-t1395411915
-s176432
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
-c00000000532C4BCB00000000000E1FD0
-t1395411915
-s925648
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
-c00000000532C4BCB00000000000A2A70
-t1395411915
-s666224
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
-c00000000532C4BCB000000000001E8A0
-t1395411915
-s125088
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
-c00000000532C4BCB000000000000BF00
-t1395411915
-s48896
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
-c00000000532C4BCB0000000000034380
-t1395411915
-s213888
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
-c00000000532C4BCB0000000000022F30
-t1395411915
-s143152
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
-c00000000532C4BCB000000000001E2A0
-t1395411915
-s123552
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
-c00000000532C4BCB0000000000052520
-t1395411915
-s337184
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
-c00000000532C4BCB0000000000015F20
-t1395411915
-s89888
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
-c00000000532C4BCB00000000001B90D0
-t1395411915
-s1806544
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
-c00000000532C4BCB000000000001F170
-t1395411915
-s127344
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
-c00000000532C4BCB000000000002FCF0
-t1395411915
-s195824
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
-c00000000532C4BCB000000000008A150
-t1395411915
-s565584
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
-c00000000532C4BCB00000000000B60E0
-t1395411915
-s745696
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
-c00000000532C4BCB0000000000078720
-t1395411915
-s493344
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
-c00000000532C4BCB00000000000621F0
-t1395411915
-s401904
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
-c00000000532C4BCB00000000000BDAE0
-t1395411915
-s776928
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
-c00000000532C4BCB0000000000039080
-t1395411915
-s233600
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
-c00000000532C4BCB000000000003CBC0
-t1395411915
-s248768
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
-c00000000532C4BCB000000000002CFE0
-t1395411915
-s184288
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
-c00000000532C4BCB000000000001EB50
-t1395411915
-s125776
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
-c00000000532C4BCB000000000001EED0
-t1395411915
-s126672
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
-c00000000532C4BCB00000000000236B0
-t1395411915
-s145072
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
-c00000000532C4BCB00000000000AC500
-t1395411915
-s705792
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
-c00000000532C4C640000000000000ADC
-t1395412068
-s2780
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
-c000000005347B64D000000000000514C
-t1397208653
-s20812
-
-N/Users/Shared/Jenkins/Library/MobileDevice/Provisioning Profiles/4109F4C8-CC37-4D74-B961-339FEACFF325.mobileprovision
-c0000000053464F46000000000000D058
-t1397116742
-s53336
-
-N/Users/Shared/Jenkins/Library/MobileDevice/Provisioning Profiles/B35E97B4-5174-4D95-868D-4156197D0C7D.mobileprovision
-c0000000053464F460000000000001CA0
-t1397116742
-s7328
-
-N/Users/Shared/Jenkins/TestCI/TestCI/Base.lproj/Main_iPad.storyboard
-c000000005386CE4900000000000027E0
-t1401343561
-s10208
-
-N/Users/Shared/Jenkins/TestCI/TestCI/Base.lproj/Main_iPhone.storyboard
-c000000005386CE4900000000000020B9
-t1401343561
-s8377
-
-N/Users/Shared/Jenkins/TestCI/TestCI/Images.xcassets
-c000000005386CE490000000000000088
-t1401343561
-s136
-
-N/Users/Shared/Jenkins/TestCI/TestCI/TestCI-Info.plist
-c00000000538820860000000000000703
-t1401430150
-s1795
-
-N/Users/Shared/Jenkins/TestCI/TestCI/TestCI-Prefix.pch
-c000000005386CE490000000000000158
-t1401343561
-s344
-
-N/Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.h
-c000000005386CE490000000000000122
-t1401343561
-s290
-
-N/Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.m
-c000000005386CE49000000000000096E
-t1401343561
-s2414
-
-N/Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.h
-c000000005386CE490000000000000184
-t1401343561
-s388
-
-N/Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.m
-c000000005386CE49000000000000082E
-t1401343561
-s2094
-
-N/Users/Shared/Jenkins/TestCI/TestCI/TestCIMasterViewController.h
-c000000005386CE49000000000000016A
-t1401343561
-s362
-
-N/Users/Shared/Jenkins/TestCI/TestCI/TestCIMasterViewController.m
-c000000005386CE490000000000000FAC
-t1401343561
-s4012
-
-N/Users/Shared/Jenkins/TestCI/TestCI/en.lproj/InfoPlist.strings
-c000000005386CE49000000000000002D
-t1401343561
-s45
-
-N/Users/Shared/Jenkins/TestCI/TestCI/main.m
-c000000005386CE49000000000000015E
-t1401343561
-s350
-
-N/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app
-t1401430396
-s374
-
-N/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app.dSYM
-t2
-s0
-
-N/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/Base.lproj/Main_iPad.storyboardc
-t1401430382
-s204
-
-N/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/Base.lproj/Main_iPhone.storyboardc
-t1401430394
-s238
-
-N/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/Info.plist
-t1401430395
-s1677
-
-N/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/PkgInfo
-t1401430395
-s8
-
-N/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/ResourceRules.plist
-t1401430362
-s150
-
-N/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/TestCI
-t1401430381
-s209128
-
-N/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/embedded.mobileprovision
-t1401430396
-s7328
-
-N/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/en.lproj/InfoPlist.strings
-t1401430394
-s42
-
-N/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCI
-t1401430381
-s61672
-
-N/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCI.LinkFileList
-c000000005388215A00000000000001E1
-t1401430362
-s481
-
-N/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIAppDelegate.o
-t1401430376
-s69488
-
-N/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIDetailViewController.o
-t1401430376
-s56508
-
-N/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIMasterViewController.o
-t1401430376
-s67968
-
-N/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/main.o
-t1401430376
-s4404
-
-N/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCI
-t1401430379
-s60716
-
-N/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCI.LinkFileList
-c000000005388215A00000000000001E1
-t1401430362
-s481
-
-N/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIAppDelegate.o
-t1401430370
-s64180
-
-N/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIDetailViewController.o
-t1401430371
-s53176
-
-N/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIMasterViewController.o
-t1401430371
-s62592
-
-N/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/main.o
-t1401430371
-s3784
-
-N/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCI
-t1401430379
-s60720
-
-N/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCI.LinkFileList
-c000000005388215A00000000000001E5
-t1401430362
-s485
-
-N/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIAppDelegate.o
-t1401430373
-s64180
-
-N/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIDetailViewController.o
-t1401430374
-s53200
-
-N/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIMasterViewController.o
-t1401430374
-s62592
-
-N/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/main.o
-t1401430374
-s3784
-
-N/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI.xcent
-t1401430396
-s429
-
-N/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/assetcatalog_dependencies.txt
-t1401430395
-s293
-
-N/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/assetcatalog_generated_info.plist
-t1401430395
-s525
-
-N/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/com.apple.build-tools.platform.validate
-t2
-s0
-
-N/var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-bpbmgqgwiqnhldaovomyzerqrtey/TestCI-Prefix.pch.pch
-t1401430368
-s116548
-
-N/var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-damxxprekkvvqlatnhfpetcoourm/TestCI-Prefix.pch.pch
-t1401430367
-s93936
-
-N/var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-fkdsgvwgkycntugptmhjxshamyjq/TestCI-Prefix.pch.pch
-t1401430367
-s93936
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies6f8352da5838b941^e5d280da5838b941^---0#1#1#--18"Check dependencies36"2336407A-97B6-4D1E-BDB3-206B941AA450-
-
-CCodeSign /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app
-s423123196.230744
-e423123197.496018
-r1
-xCodeSign
-x/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"[1mCodeSign[0m [1mbuild/Release-iphoneos/TestCI.app[0m58"[1mCodeSign[0m [1mbuild/Release-iphoneos/TestCI.app[0me7383bfc5838b941^0b0a7ffd5838b941^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/0000000000000000^1115"[1mCodeSign[0m [1mbuild/Release-iphoneos/TestCI.app[0m    cd /Users/Shared/Jenkins/TestCI    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    Using code signing identity "iPhone Distribution: MphasiS Limited" and provisioning profile "iOS Mphasis Ent Distribution" (B35E97B4-5174-4D95-868D-4156197D0C7D)    /usr/bin/codesign --force --sign C925825CA63A7F1B0FFC29992503261201442884 --resource-rules=/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/ResourceRules.plist --entitlements /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI.xcent /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app36"3C510A89-46C7-45A0-8F4D-D780F898F683-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CCompileAssetCatalog /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app /Users/Shared/Jenkins/TestCI/TestCI/Images.xcassets
-s423123194.507392
-e423123195.875185
-r1
-xCompileAssetCatalog
-x/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app
-x/Users/Shared/Jenkins/TestCI/TestCI/Images.xcassets
-o2014-05-30 11:43:15.431 IBCocoaTouchImageCatalogTool[89850:303] CFPreferences: user home directory at file:///Users/Shared/Jenkins/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-o/* com.apple.actool.compilation-results */
-o/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/LaunchImage-700-568h@2x.png
-o/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/Assets.car
-o/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/assetcatalog_generated_info.plist
-o
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"[1mCompileAssetCatalog[0m build/Release-iphoneos/TestCI.app [1mTestCI/Images.xcassets[0m92"[1mCompileAssetCatalog[0m build/Release-iphoneos/TestCI.app [1mTestCI/Images.xcassets[0m8ffc81fa5838b941^641fe0fb5838b941^-554"2014-05-30 11:43:15.431 IBCocoaTouchImageCatalogTool[89850:303] CFPreferences: user home directory at file:///Users/Shared/Jenkins/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile./* com.apple.actool.compilation-results *//Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/LaunchImage-700-568h@2x.png/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/Assets.car/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@59"file:///Users/Shared/Jenkins/TestCI/TestCI/Images.xcassets/0000000000000000^1177"[1mCompileAssetCatalog[0m build/Release-iphoneos/TestCI.app [1mTestCI/Images.xcassets[0m    cd /Users/Shared/Jenkins/TestCI    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.1 --target-device iphone --target-device ipad --compress-pngs --compile /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app /Users/Shared/Jenkins/TestCI/TestCI/Images.xcassets36"D76BE6FB-BC8C-4346-997B-9797EAF63FFB-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CCompileC build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIAppDelegate.o /Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s423123174.089998
-e423123176.026678
-r1
-xCompileC
-xbuild/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIAppDelegate.o
-x/Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.m
-d/Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.m210"[1mCompileC[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIAppDelegate.o [1mTestCI/TestCIAppDelegate.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler412817e65838b941^9ae906e85838b941^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.m0000000000000000^3437"[1mCompileC[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIAppDelegate.o [1mTestCI/TestCIAppDelegate.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Shared/Jenkins/TestCI    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=191 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-generated-files.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-own-target-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-all-target-headers.hmap -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-project-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources/arm64 -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources -F/Users/Shared/Jenkins/TestCI/build/Release-iphoneos -include /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-bpbmgqgwiqnhldaovomyzerqrtey/TestCI-Prefix.pch -MMD -MT dependencies -MF /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIAppDelegate.d --serialize-diagnostics /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIAppDelegate.dia -c /Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.m -o /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIAppDelegate.o36"AF6395EC-40B8-4D0F-8840-E72D53F9B3CC-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CCompileC build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIDetailViewController.o /Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s423123174.122417
-e423123176.027162
-r1
-xCompileC
-xbuild/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIDetailViewController.o
-x/Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.m
-d/Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.m228"[1mCompileC[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIDetailViewController.o [1mTestCI/TestCIDetailViewController.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerd5ea1fe65838b941^1e4f07e85838b941^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.m0000000000000000^3491"[1mCompileC[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIDetailViewController.o [1mTestCI/TestCIDetailViewController.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Shared/Jenkins/TestCI    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=191 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-generated-files.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-own-target-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-all-target-headers.hmap -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-project-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources/arm64 -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources -F/Users/Shared/Jenkins/TestCI/build/Release-iphoneos -include /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-bpbmgqgwiqnhldaovomyzerqrtey/TestCI-Prefix.pch -MMD -MT dependencies -MF /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIDetailViewController.d --serialize-diagnostics /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIDetailViewController.dia -c /Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.m -o /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIDetailViewController.o36"4EB55ED0-D00B-4BC0-8C9C-10226ED431B6-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CCompileC build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIMasterViewController.o /Users/Shared/Jenkins/TestCI/TestCI/TestCIMasterViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s423123176.027450
-e423123176.356142
-r1
-xCompileC
-xbuild/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIMasterViewController.o
-x/Users/Shared/Jenkins/TestCI/TestCI/TestCIMasterViewController.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/Shared/Jenkins/TestCI/TestCI/TestCIMasterViewController.m
-d/Users/Shared/Jenkins/TestCI/TestCI/TestCIMasterViewController.h
-d/Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/Shared/Jenkins/TestCI/TestCI/TestCIMasterViewController.m228"[1mCompileC[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIMasterViewController.o [1mTestCI/TestCIMasterViewController.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerfa2807e85838b941^2c2d5be85838b941^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/Shared/Jenkins/TestCI/TestCI/TestCIMasterViewController.m0000000000000000^3491"[1mCompileC[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIMasterViewController.o [1mTestCI/TestCIMasterViewController.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Shared/Jenkins/TestCI    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=191 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-generated-files.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-own-target-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-all-target-headers.hmap -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-project-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources/arm64 -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources -F/Users/Shared/Jenkins/TestCI/build/Release-iphoneos -include /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-bpbmgqgwiqnhldaovomyzerqrtey/TestCI-Prefix.pch -MMD -MT dependencies -MF /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIMasterViewController.d --serialize-diagnostics /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIMasterViewController.dia -c /Users/Shared/Jenkins/TestCI/TestCI/TestCIMasterViewController.m -o /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIMasterViewController.o36"18143004-B92D-4904-9C2E-EF615585C926-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CCompileC build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/main.o /Users/Shared/Jenkins/TestCI/TestCI/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s423123176.028776
-e423123176.129032
-r1
-xCompileC
-xbuild/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/main.o
-x/Users/Shared/Jenkins/TestCI/TestCI/main.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/Shared/Jenkins/TestCI/TestCI/main.m
-d/Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Compile /Users/Shared/Jenkins/TestCI/TestCI/main.m184"[1mCompileC[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/main.o [1mTestCI/main.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler577c07e85838b941^f51421e85838b941^---0#0#1#-19%DVTDocumentLocation2@49"file:///Users/Shared/Jenkins/TestCI/TestCI/main.m0000000000000000^3359"[1mCompileC[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/main.o [1mTestCI/main.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Shared/Jenkins/TestCI    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=191 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-generated-files.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-own-target-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-all-target-headers.hmap -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-project-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources/arm64 -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources -F/Users/Shared/Jenkins/TestCI/build/Release-iphoneos -include /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-bpbmgqgwiqnhldaovomyzerqrtey/TestCI-Prefix.pch -MMD -MT dependencies -MF /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/main.d --serialize-diagnostics /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/main.dia -c /Users/Shared/Jenkins/TestCI/TestCI/main.m -o /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/main.o36"06D45F11-5B89-44F7-A39C-5027562BC58A-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CCompileC build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIAppDelegate.o /Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s423123168.549545
-e423123170.835085
-r1
-xCompileC
-xbuild/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIAppDelegate.o
-x/Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.m
-d/Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.m210"[1mCompileC[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIAppDelegate.o [1mTestCI/TestCIAppDelegate.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler4fce8ce05838b941^c9c8d5e25838b941^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.m0000000000000000^3437"[1mCompileC[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIAppDelegate.o [1mTestCI/TestCIAppDelegate.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Shared/Jenkins/TestCI    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=191 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-generated-files.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-own-target-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-all-target-headers.hmap -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-project-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources/armv7 -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources -F/Users/Shared/Jenkins/TestCI/build/Release-iphoneos -include /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-fkdsgvwgkycntugptmhjxshamyjq/TestCI-Prefix.pch -MMD -MT dependencies -MF /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIAppDelegate.d --serialize-diagnostics /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIAppDelegate.dia -c /Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.m -o /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIAppDelegate.o36"DC98810F-FE46-4E5E-9C50-DFDB42742FF7-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CCompileC build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIDetailViewController.o /Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s423123170.835442
-e423123171.221724
-r1
-xCompileC
-xbuild/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIDetailViewController.o
-x/Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.m
-d/Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.m228"[1mCompileC[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIDetailViewController.o [1mTestCI/TestCIDetailViewController.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler4b00d6e25838b941^a0c338e35838b941^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.m0000000000000000^3491"[1mCompileC[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIDetailViewController.o [1mTestCI/TestCIDetailViewController.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Shared/Jenkins/TestCI    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=191 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-generated-files.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-own-target-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-all-target-headers.hmap -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-project-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources/armv7 -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources -F/Users/Shared/Jenkins/TestCI/build/Release-iphoneos -include /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-fkdsgvwgkycntugptmhjxshamyjq/TestCI-Prefix.pch -MMD -MT dependencies -MF /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIDetailViewController.d --serialize-diagnostics /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIDetailViewController.dia -c /Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.m -o /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIDetailViewController.o36"F0FAAB6E-4B12-4167-8544-40896F65753A-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CCompileC build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIMasterViewController.o /Users/Shared/Jenkins/TestCI/TestCI/TestCIMasterViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s423123171.222059
-e423123171.603877
-r1
-xCompileC
-xbuild/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIMasterViewController.o
-x/Users/Shared/Jenkins/TestCI/TestCI/TestCIMasterViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/Shared/Jenkins/TestCI/TestCI/TestCIMasterViewController.m
-d/Users/Shared/Jenkins/TestCI/TestCI/TestCIMasterViewController.h
-d/Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/Shared/Jenkins/TestCI/TestCI/TestCIMasterViewController.m228"[1mCompileC[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIMasterViewController.o [1mTestCI/TestCIMasterViewController.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler65fb38e35838b941^f2979ae35838b941^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/Shared/Jenkins/TestCI/TestCI/TestCIMasterViewController.m0000000000000000^3491"[1mCompileC[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIMasterViewController.o [1mTestCI/TestCIMasterViewController.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Shared/Jenkins/TestCI    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=191 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-generated-files.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-own-target-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-all-target-headers.hmap -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-project-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources/armv7 -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources -F/Users/Shared/Jenkins/TestCI/build/Release-iphoneos -include /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-fkdsgvwgkycntugptmhjxshamyjq/TestCI-Prefix.pch -MMD -MT dependencies -MF /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIMasterViewController.d --serialize-diagnostics /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIMasterViewController.dia -c /Users/Shared/Jenkins/TestCI/TestCI/TestCIMasterViewController.m -o /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIMasterViewController.o36"B49992B7-F08F-47A3-9E92-7647B6A1EC74-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CCompileC build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/main.o /Users/Shared/Jenkins/TestCI/TestCI/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s423123171.604224
-e423123171.770318
-r1
-xCompileC
-xbuild/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/main.o
-x/Users/Shared/Jenkins/TestCI/TestCI/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/Shared/Jenkins/TestCI/TestCI/main.m
-d/Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Compile /Users/Shared/Jenkins/TestCI/TestCI/main.m184"[1mCompileC[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/main.o [1mTestCI/main.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilereece9ae35838b941^7635c5e35838b941^---0#0#1#-19%DVTDocumentLocation2@49"file:///Users/Shared/Jenkins/TestCI/TestCI/main.m0000000000000000^3359"[1mCompileC[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/main.o [1mTestCI/main.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Shared/Jenkins/TestCI    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=191 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-generated-files.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-own-target-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-all-target-headers.hmap -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-project-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources/armv7 -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources -F/Users/Shared/Jenkins/TestCI/build/Release-iphoneos -include /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-fkdsgvwgkycntugptmhjxshamyjq/TestCI-Prefix.pch -MMD -MT dependencies -MF /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/main.dia -c /Users/Shared/Jenkins/TestCI/TestCI/main.m -o /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/main.o36"125D5771-E8BC-4128-89E6-3072D7498AF9-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CCompileC build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIAppDelegate.o /Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s423123171.771701
-e423123173.667479
-r1
-xCompileC
-xbuild/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIAppDelegate.o
-x/Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.m
-d/Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.m212"[1mCompileC[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIAppDelegate.o [1mTestCI/TestCIAppDelegate.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler5cabc5e35838b941^8fe0aae55838b941^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.m0000000000000000^3444"[1mCompileC[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIAppDelegate.o [1mTestCI/TestCIAppDelegate.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Shared/Jenkins/TestCI    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=191 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-generated-files.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-own-target-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-all-target-headers.hmap -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-project-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources/armv7s -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources -F/Users/Shared/Jenkins/TestCI/build/Release-iphoneos -include /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-damxxprekkvvqlatnhfpetcoourm/TestCI-Prefix.pch -MMD -MT dependencies -MF /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIAppDelegate.d --serialize-diagnostics /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIAppDelegate.dia -c /Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.m -o /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIAppDelegate.o36"C02D5DF3-2AFE-44F0-8642-864A1AE65E33-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CCompileC build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIDetailViewController.o /Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s423123173.667855
-e423123174.122058
-r1
-xCompileC
-xbuild/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIDetailViewController.o
-x/Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.m
-d/Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.m230"[1mCompileC[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIDetailViewController.o [1mTestCI/TestCIDetailViewController.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilera419abe55838b941^9df31fe65838b941^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.m0000000000000000^3498"[1mCompileC[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIDetailViewController.o [1mTestCI/TestCIDetailViewController.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Shared/Jenkins/TestCI    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=191 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-generated-files.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-own-target-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-all-target-headers.hmap -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-project-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources/armv7s -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources -F/Users/Shared/Jenkins/TestCI/build/Release-iphoneos -include /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-damxxprekkvvqlatnhfpetcoourm/TestCI-Prefix.pch -MMD -MT dependencies -MF /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIDetailViewController.d --serialize-diagnostics /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIDetailViewController.dia -c /Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.m -o /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIDetailViewController.o36"D3BA0486-BE11-4620-B8F9-BF37E2F966DA-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CCompileC build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIMasterViewController.o /Users/Shared/Jenkins/TestCI/TestCI/TestCIMasterViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s423123173.668522
-e423123174.035302
-r1
-xCompileC
-xbuild/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIMasterViewController.o
-x/Users/Shared/Jenkins/TestCI/TestCI/TestCIMasterViewController.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/Shared/Jenkins/TestCI/TestCI/TestCIMasterViewController.m
-d/Users/Shared/Jenkins/TestCI/TestCI/TestCIMasterViewController.h
-d/Users/Shared/Jenkins/TestCI/TestCI/TestCIDetailViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/Shared/Jenkins/TestCI/TestCI/TestCIMasterViewController.m230"[1mCompileC[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIMasterViewController.o [1mTestCI/TestCIMasterViewController.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler6842abe55838b941^d34a09e65838b941^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/Shared/Jenkins/TestCI/TestCI/TestCIMasterViewController.m0000000000000000^3498"[1mCompileC[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIMasterViewController.o [1mTestCI/TestCIMasterViewController.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Shared/Jenkins/TestCI    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=191 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-generated-files.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-own-target-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-all-target-headers.hmap -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-project-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources/armv7s -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources -F/Users/Shared/Jenkins/TestCI/build/Release-iphoneos -include /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-damxxprekkvvqlatnhfpetcoourm/TestCI-Prefix.pch -MMD -MT dependencies -MF /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIMasterViewController.d --serialize-diagnostics /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIMasterViewController.dia -c /Users/Shared/Jenkins/TestCI/TestCI/TestCIMasterViewController.m -o /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIMasterViewController.o36"C0C658C7-1754-4AD0-A899-182FD27027E8-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CCompileC build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/main.o /Users/Shared/Jenkins/TestCI/TestCI/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s423123174.035688
-e423123174.089675
-r1
-xCompileC
-xbuild/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/main.o
-x/Users/Shared/Jenkins/TestCI/TestCI/main.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/Shared/Jenkins/TestCI/TestCI/main.m
-d/Users/Shared/Jenkins/TestCI/TestCI/TestCIAppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Compile /Users/Shared/Jenkins/TestCI/TestCI/main.m186"[1mCompileC[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/main.o [1mTestCI/main.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerdd4009e65838b941^0d3817e65838b941^---0#0#1#-19%DVTDocumentLocation2@49"file:///Users/Shared/Jenkins/TestCI/TestCI/main.m0000000000000000^3366"[1mCompileC[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/main.o [1mTestCI/main.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Shared/Jenkins/TestCI    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=191 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-generated-files.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-own-target-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-all-target-headers.hmap -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-project-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources/armv7s -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources -F/Users/Shared/Jenkins/TestCI/build/Release-iphoneos -include /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-damxxprekkvvqlatnhfpetcoourm/TestCI-Prefix.pch -MMD -MT dependencies -MF /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/main.dia -c /Users/Shared/Jenkins/TestCI/TestCI/main.m -o /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/main.o36"2368D44C-F993-4FBF-89F4-80045EFFB170-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CCompileStoryboard /Users/Shared/Jenkins/TestCI/TestCI/Base.lproj/Main_iPad.storyboard
-s423123181.687413
-e423123182.466419
-r1
-xCompileStoryboard
-x/Users/Shared/Jenkins/TestCI/TestCI/Base.lproj/Main_iPad.storyboard
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"[1mCompileStoryboard[0m [1mTestCI/Base.lproj/Main_iPad.storyboard[0m72"[1mCompileStoryboard[0m [1mTestCI/Base.lproj/Main_iPad.storyboard[0m2313b0ed5838b941^986977ee5838b941^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/Shared/Jenkins/TestCI/TestCI/Base.lproj/Main_iPad.storyboard0000000000000000^956"[1mCompileStoryboard[0m [1mTestCI/Base.lproj/Main_iPad.storyboard[0m    cd /Users/Shared/Jenkins/TestCI    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/Base.lproj/Main_iPad.storyboardc /Users/Shared/Jenkins/TestCI/TestCI/Base.lproj/Main_iPad.storyboard36"375DB141-E7F7-4FF8-9174-1FA971A3C879-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CCompileStoryboard /Users/Shared/Jenkins/TestCI/TestCI/Base.lproj/Main_iPhone.storyboard
-s423123182.466860
-e423123194.506062
-r1
-xCompileStoryboard
-x/Users/Shared/Jenkins/TestCI/TestCI/Base.lproj/Main_iPhone.storyboard
-o2014-05-30 11:43:10.323 Interface Builder Cocoa Touch Tool[89828:303] CFPreferences: user home directory at file:///Users/Shared/Jenkins/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-o2014-05-30 11:43:14.179 Interface Builder Cocoa Touch Tool[89848:303] CFPreferences: user home directory at file:///Users/Shared/Jenkins/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"[1mCompileStoryboard[0m [1mTestCI/Base.lproj/Main_iPhone.storyboard[0m74"[1mCompileStoryboard[0m [1mTestCI/Base.lproj/Main_iPhone.storyboard[0m139b77ee5838b941^ef8d81fa5838b941^-478"2014-05-30 11:43:10.323 Interface Builder Cocoa Touch Tool[89828:303] CFPreferences: user home directory at file:///Users/Shared/Jenkins/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.2014-05-30 11:43:14.179 Interface Builder Cocoa Touch Tool[89848:303] CFPreferences: user home directory at file:///Users/Shared/Jenkins/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@76"file:///Users/Shared/Jenkins/TestCI/TestCI/Base.lproj/Main_iPhone.storyboard0000000000000000^962"[1mCompileStoryboard[0m [1mTestCI/Base.lproj/Main_iPhone.storyboard[0m    cd /Users/Shared/Jenkins/TestCI    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/Base.lproj/Main_iPhone.storyboardc /Users/Shared/Jenkins/TestCI/TestCI/Base.lproj/Main_iPhone.storyboard36"FC55354C-3F7C-4049-B30E-51275377B51D-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CCopyStringsFile /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/en.lproj/InfoPlist.strings TestCI/en.lproj/InfoPlist.strings
-s423123194.507339
-e423123194.585521
-r1
-xCopyStringsFile
-x/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/en.lproj/InfoPlist.strings
-xTestCI/en.lproj/InfoPlist.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy TestCI/en.lproj/InfoPlist.strings118"[1mCopyStringsFile[0m build/Release-iphoneos/TestCI.app/en.lproj/InfoPlist.strings TestCI/en.lproj/InfoPlist.strings0dfb81fa5838b941^85eb95fa5838b941^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/Shared/Jenkins/TestCI/TestCI/en.lproj/InfoPlist.strings0000000000000000^727"[1mCopyStringsFile[0m build/Release-iphoneos/TestCI.app/en.lproj/InfoPlist.strings TestCI/en.lproj/InfoPlist.strings    cd /Users/Shared/Jenkins/TestCI    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/en.lproj -- TestCI/en.lproj/InfoPlist.strings36"341F85B5-AA70-481F-AFF6-089FF73ACD23-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Release-iphoneos/TestCI.app/ResourceRules.plist
-s423123162.504790
-e423123162.506409
-r1
-xCpResource
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
-xbuild/Release-iphoneos/TestCI.app/ResourceRules.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Release-iphoneos/TestCI.app/ResourceRules.plist194"[1mCpResource[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Release-iphoneos/TestCI.app/ResourceRules.plistcd5781da5838b941^b9a581da5838b941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/ResourceRules.plist0034b8cfdcffdf42^1027"[1mCpResource[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Release-iphoneos/TestCI.app/ResourceRules.plist    cd /Users/Shared/Jenkins/TestCI    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app36"1B3BFB54-CAFA-42B6-AEE2-31A2FF7A1451-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CCreateUniversalBinary /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/TestCI normal armv7\ armv7s\ arm64
-s423123181.291879
-e423123181.686688
-r1
-xCreateUniversalBinary
-x/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/TestCI
-xnormal
-xarmv7 armv7s arm64
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Create universal binary /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/TestCI106"[1mCreateUniversalBinary[0m [1mbuild/Release-iphoneos/TestCI.app/TestCI[0m normal armv7\ armv7s\ arm64404f4bed5838b941^29ccafed5838b941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/TestCI0034b8cfdcffdf42^1017"[1mCreateUniversalBinary[0m [1mbuild/Release-iphoneos/TestCI.app/TestCI[0m normal armv7\ armv7s\ arm64    cd /Users/Shared/Jenkins/TestCI    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCI /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCI /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCI -output /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/TestCI36"62525DF4-726F-483E-A918-40FC848578F7-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CGenerateDSYMFile /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app.dSYM /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/TestCI
-s423123195.903460
-e423123196.142328
-r1
-xGenerateDSYMFile
-x/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app.dSYM
-x/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/TestCI
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Generate /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app.dSYM112"[1mGenerateDSYMFile[0m [1mbuild/Release-iphoneos/TestCI.app.dSYM[0m build/Release-iphoneos/TestCI.app/TestCI205ee7fb5838b941^db8724fc5838b941^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app.dSYM0034b8cfdcffdf42^763"[1mGenerateDSYMFile[0m [1mbuild/Release-iphoneos/TestCI.app.dSYM[0m build/Release-iphoneos/TestCI.app/TestCI    cd /Users/Shared/Jenkins/TestCI    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/TestCI -o /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app.dSYM36"ACD4DB9C-EE2B-4883-86D8-944F8F8184F4-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CLd /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCI normal arm64
-s423123179.351745
-e423123181.244547
-r1
-xLd
-x/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCI
-xnormal
-xarm64
-d/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCI.LinkFileList
-d/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIAppDelegate.o
-d/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIDetailViewController.o
-d/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCIMasterViewController.o
-d/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/main.o
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Link /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCI100"[1mLd[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCI normal arm6425245aeb5838b941^029c3eed5838b941^---0#0#1#--1413"[1mLd[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCI normal arm64    cd /Users/Shared/Jenkins/TestCI    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/Shared/Jenkins/TestCI/build/Release-iphoneos -F/Users/Shared/Jenkins/TestCI/build/Release-iphoneos -filelist /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCI.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCI_dependency_info.dat -o /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/arm64/TestCI36"1D5A899C-8F43-4905-964C-95ADF300F291-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CLd /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCI normal armv7
-s423123176.418350
-e423123179.349889
-r1
-xLd
-x/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCI
-xnormal
-xarmv7
-d/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCI.LinkFileList
-d/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIAppDelegate.o
-d/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIDetailViewController.o
-d/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCIMasterViewController.o
-d/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/main.o
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Link /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCI100"[1mLd[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCI normal armv78b366be85838b941^cc9959eb5838b941^---0#0#1#--1413"[1mLd[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCI normal armv7    cd /Users/Shared/Jenkins/TestCI    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/Shared/Jenkins/TestCI/build/Release-iphoneos -F/Users/Shared/Jenkins/TestCI/build/Release-iphoneos -filelist /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCI.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCI_dependency_info.dat -o /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7/TestCI36"CFB64A23-7868-4932-8D42-591B537D9AFE-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CLd /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCI normal armv7s
-s423123176.420042
-e423123179.349899
-r1
-xLd
-x/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCI
-xnormal
-xarmv7s
-d/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCI.LinkFileList
-d/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIAppDelegate.o
-d/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIDetailViewController.o
-d/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCIMasterViewController.o
-d/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/main.o
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Link /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCI102"[1mLd[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCI normal armv7sa1a16be85838b941^72c559eb5838b941^---0#0#1#--1419"[1mLd[0m build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCI normal armv7s    cd /Users/Shared/Jenkins/TestCI    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/Shared/Jenkins/TestCI/build/Release-iphoneos -F/Users/Shared/Jenkins/TestCI/build/Release-iphoneos -filelist /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCI.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCI_dependency_info.dat -o /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/Objects-normal/armv7s/TestCI36"96EF04F2-86B0-4D92-9C91-57C7B2387196-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CProcessInfoPlistFile /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/Info.plist /Users/Shared/Jenkins/TestCI/TestCI/TestCI-Info.plist
-s423123195.876235
-e423123195.901945
-r1
-xProcessInfoPlistFile
-x/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/Info.plist
-x/Users/Shared/Jenkins/TestCI/TestCI/TestCI-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Process /Users/Shared/Jenkins/TestCI/TestCI/TestCI-Info.plist106"[1mProcessInfoPlistFile[0m build/Release-iphoneos/TestCI.app/Info.plist [1mTestCI/TestCI-Info.plist[0mad6be0fb5838b941^bd00e7fb5838b941^---0#0#1#-19%DVTDocumentLocation2@60"file:///Users/Shared/Jenkins/TestCI/TestCI/TestCI-Info.plist0000000000000000^1051"[1mProcessInfoPlistFile[0m build/Release-iphoneos/TestCI.app/Info.plist [1mTestCI/TestCI-Info.plist[0m    cd /Users/Shared/Jenkins/TestCI    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    builtin-infoPlistUtility /Users/Shared/Jenkins/TestCI/TestCI/TestCI-Info.plist -genpkginfo /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/ResourceRules.plist -additionalcontentfile /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/assetcatalog_generated_info.plist -o /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/Info.plist36"252D7F29-251A-4B7B-AE54-BAC9D4B83803-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CProcessPCH /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-bpbmgqgwiqnhldaovomyzerqrtey/TestCI-Prefix.pch.pch TestCI/TestCI-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s423123167.577116
-e423123168.548571
-r1
-xProcessPCH
-x/var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-bpbmgqgwiqnhldaovomyzerqrtey/TestCI-Prefix.pch.pch
-xTestCI/TestCI-Prefix.pch
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/Shared/Jenkins/TestCI/TestCI/TestCI-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile TestCI/TestCI-Prefix.pch295"[1mProcessPCH[0m /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-bpbmgqgwiqnhldaovomyzerqrtey/TestCI-Prefix.pch.pch TestCI/TestCI-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerfbe993df5838b941^9c6f8ce05838b941^---0#0#1#-19%DVTDocumentLocation2@60"file:///Users/Shared/Jenkins/TestCI/TestCI/TestCI-Prefix.pch0000000000000000^3527"[1mProcessPCH[0m /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-bpbmgqgwiqnhldaovomyzerqrtey/TestCI-Prefix.pch.pch TestCI/TestCI-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Shared/Jenkins/TestCI    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=191 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-generated-files.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-own-target-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-all-target-headers.hmap -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-project-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources/arm64 -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources -F/Users/Shared/Jenkins/TestCI/build/Release-iphoneos --serialize-diagnostics /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-bpbmgqgwiqnhldaovomyzerqrtey/TestCI-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-bpbmgqgwiqnhldaovomyzerqrtey/TestCI-Prefix.pch.d -c /Users/Shared/Jenkins/TestCI/TestCI/TestCI-Prefix.pch -o /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-bpbmgqgwiqnhldaovomyzerqrtey/TestCI-Prefix.pch.pch36"95EFA25B-5601-4C3C-8F24-2006D1AD7E92-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CProcessPCH /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-damxxprekkvvqlatnhfpetcoourm/TestCI-Prefix.pch.pch TestCI/TestCI-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s423123162.582005
-e423123167.576351
-r1
-xProcessPCH
-x/var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-damxxprekkvvqlatnhfpetcoourm/TestCI-Prefix.pch.pch
-xTestCI/TestCI-Prefix.pch
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/Shared/Jenkins/TestCI/TestCI/TestCI-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile TestCI/TestCI-Prefix.pch296"[1mProcessPCH[0m /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-damxxprekkvvqlatnhfpetcoourm/TestCI-Prefix.pch.pch TestCI/TestCI-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler9c1995da5838b941^998093df5838b941^---0#0#1#-19%DVTDocumentLocation2@60"file:///Users/Shared/Jenkins/TestCI/TestCI/TestCI-Prefix.pch0000000000000000^3530"[1mProcessPCH[0m /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-damxxprekkvvqlatnhfpetcoourm/TestCI-Prefix.pch.pch TestCI/TestCI-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Shared/Jenkins/TestCI    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=191 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-generated-files.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-own-target-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-all-target-headers.hmap -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-project-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources/armv7s -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources -F/Users/Shared/Jenkins/TestCI/build/Release-iphoneos --serialize-diagnostics /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-damxxprekkvvqlatnhfpetcoourm/TestCI-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-damxxprekkvvqlatnhfpetcoourm/TestCI-Prefix.pch.d -c /Users/Shared/Jenkins/TestCI/TestCI/TestCI-Prefix.pch -o /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-damxxprekkvvqlatnhfpetcoourm/TestCI-Prefix.pch.pch36"EE5E0FCA-62E0-4E7A-929B-93ECAA422F4F-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CProcessPCH /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-fkdsgvwgkycntugptmhjxshamyjq/TestCI-Prefix.pch.pch TestCI/TestCI-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s423123162.581141
-e423123167.576711
-r1
-xProcessPCH
-x/var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-fkdsgvwgkycntugptmhjxshamyjq/TestCI-Prefix.pch.pch
-xTestCI/TestCI-Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/Shared/Jenkins/TestCI/TestCI/TestCI-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile TestCI/TestCI-Prefix.pch295"[1mProcessPCH[0m /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-fkdsgvwgkycntugptmhjxshamyjq/TestCI-Prefix.pch.pch TestCI/TestCI-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerf5f194da5838b941^768893df5838b941^---0#0#1#-19%DVTDocumentLocation2@60"file:///Users/Shared/Jenkins/TestCI/TestCI/TestCI-Prefix.pch0000000000000000^3527"[1mProcessPCH[0m /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-fkdsgvwgkycntugptmhjxshamyjq/TestCI-Prefix.pch.pch TestCI/TestCI-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Shared/Jenkins/TestCI    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=191 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-generated-files.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-own-target-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-all-target-headers.hmap -iquote /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI-project-headers.hmap -I/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources/armv7 -I/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/DerivedSources -F/Users/Shared/Jenkins/TestCI/build/Release-iphoneos --serialize-diagnostics /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-fkdsgvwgkycntugptmhjxshamyjq/TestCI-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-fkdsgvwgkycntugptmhjxshamyjq/TestCI-Prefix.pch.d -c /Users/Shared/Jenkins/TestCI/TestCI/TestCI-Prefix.pch -o /var/folders/v6/nbm26tzs6318wgp39qdp632r00007h/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TestCI-Prefix-fkdsgvwgkycntugptmhjxshamyjq/TestCI-Prefix.pch.pch36"4AFF2872-5EB1-45C5-805E-1DA04A638FD8-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI.xcent
-s423123196.188314
-e423123196.229672
-r1
-xProcessProductPackaging
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
-x/Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI.xcent
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection222"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist [1mbuild/TestCI.build/Release-iphoneos/TestCI.build/TestCI.xcent[0m222"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist [1mbuild/TestCI.build/Release-iphoneos/TestCI.build/TestCI.xcent[0mcf4c30fc5838b941^12da3afc5838b941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI.xcent0034b8cfdcffdf42^909"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist [1mbuild/TestCI.build/Release-iphoneos/TestCI.build/TestCI.xcent[0m    cd /Users/Shared/Jenkins/TestCI    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/Shared/Jenkins/TestCI/build/TestCI.build/Release-iphoneos/TestCI.build/TestCI.xcent36"48339E7F-EC8A-40DB-BF24-3ACE73580C9B-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CProcessProductPackaging /Users/Shared/Jenkins/Library/MobileDevice/Provisioning\ Profiles/4109F4C8-CC37-4D74-B961-339FEACFF325.mobileprovision /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/embedded.mobileprovision
-s423123138.388500
-e423123138.432679
-r1
-xProcessProductPackaging
-x/Users/Shared/Jenkins/Library/MobileDevice/Provisioning Profiles/4109F4C8-CC37-4D74-B961-339FEACFF325.mobileprovision
-x/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/embedded.mobileprovision
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection217"[1mProcessProductPackaging[0m /Users/Shared/Jenkins/Library/MobileDevice/Provisioning\ Profiles/4109F4C8-CC37-4D74-B961-339FEACFF325.mobileprovision [1mbuild/Release-iphoneos/TestCI.app/embedded.mobileprovision[0m217"[1mProcessProductPackaging[0m /Users/Shared/Jenkins/Library/MobileDevice/Provisioning\ Profiles/4109F4C8-CC37-4D74-B961-339FEACFF325.mobileprovision [1mbuild/Release-iphoneos/TestCI.app/embedded.mobileprovision[0m478f63c25838b941^c3d86ec25838b941^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/embedded.mobileprovision0034b8cfdcffdf42^873"[1mProcessProductPackaging[0m /Users/Shared/Jenkins/Library/MobileDevice/Provisioning\ Profiles/4109F4C8-CC37-4D74-B961-339FEACFF325.mobileprovision [1mbuild/Release-iphoneos/TestCI.app/embedded.mobileprovision[0m    cd /Users/Shared/Jenkins/TestCI    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    builtin-productPackagingUtility /Users/Shared/Jenkins/Library/MobileDevice/Provisioning\ Profiles/4109F4C8-CC37-4D74-B961-339FEACFF325.mobileprovision -o /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/embedded.mobileprovision36"C7A4B700-E197-46D6-AD12-3CA46F175542-
-bF7293AF4-D631-4A98-AB22-F3CA17EE4A72
-
-CProcessProductPackaging /Users/Shared/Jenkins/Library/MobileDevice/Provisioning\ Profiles/B35E97B4-5174-4D95-868D-4156197D0C7D.mobileprovision /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/embedded.mobileprovision
-s423123196.143499
-e423123196.167416
-r1
-xProcessProductPackaging
-x/Users/Shared/Jenkins/Library/MobileDevice/Provisioning Profiles/B35E97B4-5174-4D95-868D-4156197D0C7D.mobileprovision
-x/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/embedded.mobileprovision
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection217"[1mProcessProductPackaging[0m /Users/Shared/Jenkins/Library/MobileDevice/Provisioning\ Profiles/B35E97B4-5174-4D95-868D-4156197D0C7D.mobileprovision [1mbuild/Release-iphoneos/TestCI.app/embedded.mobileprovision[0m217"[1mProcessProductPackaging[0m /Users/Shared/Jenkins/Library/MobileDevice/Provisioning\ Profiles/B35E97B4-5174-4D95-868D-4156197D0C7D.mobileprovision [1mbuild/Release-iphoneos/TestCI.app/embedded.mobileprovision[0m1bda24fc5838b941^90dc2afc5838b941^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/embedded.mobileprovision0034b8cfdcffdf42^873"[1mProcessProductPackaging[0m /Users/Shared/Jenkins/Library/MobileDevice/Provisioning\ Profiles/B35E97B4-5174-4D95-868D-4156197D0C7D.mobileprovision [1mbuild/Release-iphoneos/TestCI.app/embedded.mobileprovision[0m    cd /Users/Shared/Jenkins/TestCI    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    builtin-productPackagingUtility /Users/Shared/Jenkins/Library/MobileDevice/Provisioning\ Profiles/B35E97B4-5174-4D95-868D-4156197D0C7D.mobileprovision -o /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/embedded.mobileprovision36"1213757A-ADAB-46A6-883F-E76791BFB257-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
-CTouch /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app
-r0
-
-CValidate /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app
-s423123197.496724
-e423123199.899389
-r1
-xValidate
-x/Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"[1mValidate[0m [1mbuild/Release-iphoneos/TestCI.app[0m58"[1mValidate[0m [1mbuild/Release-iphoneos/TestCI.app[0mf6407ffd5838b941^8350e6ff5838b941^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app/0000000000000000^694"[1mValidate[0m [1mbuild/Release-iphoneos/TestCI.app[0m    cd /Users/Shared/Jenkins/TestCI    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/git/bin:/usr/share/ant/bin:/usr/share/android/tools"    export PRODUCT_TYPE=com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/Shared/Jenkins/TestCI/build/Release-iphoneos/TestCI.app36"8692F819-824F-4D93-8954-BFA3774E7F5D-
-bC2E1106A-464F-4A85-A05A-C12EFCCA379D
-
